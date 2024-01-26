@@ -1,9 +1,11 @@
 body {
+    background-image: url("/task3-calculator/assets/img/bg1.jpg");
+    background-size: cover;
+  }
+  .content-wrapper{
     display: flex;
     align-items: center;
-    margin: 0;
-   background-image: url(/assets/img/pexels-karolina-grabowska-4386325.jpg);
-   background-size: cover;
+    justify-content: center;
   }
   .title {
     /* text-align: center; */
@@ -11,8 +13,6 @@ body {
     color: #e10000;
     -webkit-text-stroke:1px #494747;
     margin-top: 300px;
-    margin-left: 320px;
-    margin: 5;
     position: fixed;
     @media screen and (max-width: 768px) {
       margin: 5px;
@@ -29,7 +29,6 @@ body {
     padding: 20px;
     border-radius: 30px;
     height: 400px;
-    margin-left: 580px;
     margin-top: 800px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     position: fixed;

@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 function typeText() {
   const title = document.getElementById('mathTitle');
-  const originalText = "Use ME TO SOLVE YOUR MATHEMATICAL PROBLEMS";
+  const originalText = "Solve your math problems here!";
   let i = 0;
 
   function type() {
@@ -105,7 +105,7 @@ function typeText() {
       } 
       else {
           i = 0;
-          title.innerHTML = '&#128540;';
+          title.innerHTML = '';
           setTimeout(type, 1000); 
       }
   }
