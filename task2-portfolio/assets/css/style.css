@@ -379,7 +379,7 @@ img
 .footer-column {
   margin: 0 10px;
   padding: 50px;
-  background-color: grey; /* Set a grey background */
+  background-color: grey; 
   width: calc(20% - 20px);
   text-align: center;
 }
@@ -435,14 +435,14 @@ img
   background-color: #4dc247;
 }
 
-/* Remove text decoration from Quick Links list items */
+
 .footer-links ul li a {
   text-decoration: none;
 }
 
-/* Reduce gap between Quick Links and Contact Us */
+
 .footer-links {
-  margin-top: 10px; /* Reduce the margin here */
+  margin-top: 10px; 
 }
 /* 
 .footer-bottom {
@@ -472,8 +472,8 @@ img
       /* height: 50px; */
       background-color: #1d1fa8;
       text-align: center;
-      padding: 10px 0; /* Add padding for spacing */
-      z-index: 1000; /* Ensure it's above other content */
+      padding: 10px 0;
+      z-index: 1000; 
   }
   
   .footer-bottom p {
@@ -485,16 +485,16 @@ img
       text-decoration: none;
   }
   
-  /* Hover effect for footer bottom links */
+  
   .footer-bottom a:hover {
       color: #f51f8a;
   }
 
 
 
-  /* Your existing CSS styles go here */
 
-/* Responsive adjustments */
+
+
 @media screen and (max-width: 1199px) {
   .content {
     font-size: 1.5rem;
@@ -514,18 +514,18 @@ img
 
 @media screen and (max-width: 1236px) {
   .content {
-    font-size: 1.5rem; /* Adjust the font size for smaller screens */
-    margin-left: 20px; /* Adjust the margin as needed */
+    font-size: 1.5rem; 
+    margin-left: 20px; 
   }
 
   .container-lg {
-    height: 120px; /* Adjust the height for smaller screens */
-    width: 120px; /* Adjust the width for smaller screens */
+    height: 120px; 
+    width: 120px; 
   }
 
   .prof {
-    height: 120px; /* Adjust the height for smaller screens */
-    width: 120px; /* Adjust the width for smaller screens */
+    height: 120px;
+    width: 120px; 
     margin-top: 20px;
     margin-left: 20px;
   }
